@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #0f0613;
+}
+body {
+  /* overflow: hidden; */
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* position: relative; */
+  font-family: "Cabin", sans-serif;
+  color: #3e56da;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* position: relative; */
+  font-family: "Cabin", sans-serif;
+  color: #f12e20;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* position: relative; */
+  font-family: "Cabin", sans-serif;
+  color: #49b15a;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+/* section:nth-child(odd) {
+  justify-content: flex-end;
+} */
